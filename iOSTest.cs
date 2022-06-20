@@ -33,8 +33,6 @@ namespace PSDemoTest
 
             var el3 = driver.FindElementByAccessibilityId("Brak wyników wyszukiwania");
 
-
-           // var el3 = driver.FindElementByAccessibilityId("Risotto z kurczakiem Ryż z kurczakiem i pieczarkami w sosie śmietanowo-sojowo-grzybowym 20,00 zł");
             var txt = el3.Text;
             Assert.IsTrue(txt == "Brak wyników wyszukiwania");
             
