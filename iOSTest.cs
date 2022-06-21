@@ -29,7 +29,7 @@ namespace PSDemoTest
             var el2 = driver.FindElementByAccessibilityId("Szukaj");
             el2.Click();
             el2.Clear();
-            el2.SendKeys("dupa");
+            el2.SendKeys("master");
 
             var el3 = driver.FindElementByAccessibilityId("Brak wyników wyszukiwania");
 
