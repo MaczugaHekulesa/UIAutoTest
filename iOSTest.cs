@@ -33,6 +33,7 @@ namespace PSDemoTest
            
             var el3 = driver.FindElementByAccessibilityId("Brak wyników wyszukiwania");
 
+            // siemanko, jesteśmy na masterze
             var txt = el3.Text;
             Assert.IsTrue(txt == "Brak wyników wyszukiwania");
             
