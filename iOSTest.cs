@@ -21,7 +21,6 @@ namespace PSDemoTest
         public void ChangeToNextCategory()
         {
             IOSDriver<IOSElement> driver = StartApp();
-
             //tap on "Przystawki"
 
             var el1 = driver.FindElementByIosClassChain("**/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]");
@@ -29,8 +28,9 @@ namespace PSDemoTest
             var el2 = driver.FindElementByAccessibilityId("Szukaj");
             el2.Click();
             el2.Clear();
-            el2.SendKeys("master");
 
+            el2.SendKeys("no to jest master");
+           
             var el3 = driver.FindElementByAccessibilityId("Brak wyników wyszukiwania");
 
             var txt = el3.Text;
@@ -63,3 +63,4 @@ namespace PSDemoTest
 
     }
 }
+
