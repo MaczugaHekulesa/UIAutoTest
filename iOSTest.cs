@@ -26,7 +26,7 @@ namespace PSDemoTest
 
             var el1 = driver.FindElementByIosClassChain("**/XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeButton[1]");
             el1.Click();
-            var el2 = driver.FindElementByIosClassChain(@"**/XCUIElementTypeTextField[elementId == ""4A000000-0000-0000-716B-000000000000""]");
+            var el2 = driver.FindElementByAccessibilityId("Szukaj");
             el2.Click();
             el2.Clear();
             el2.SendKeys("dupa");
