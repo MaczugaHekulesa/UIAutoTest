@@ -40,6 +40,9 @@ namespace PSDemoTest
             return driver;
 
             //będę teraz na remote lecial
+            //teraz tak serio polecę
+
+
             //var appiumLocalServer = new AppiumServiceBuilder().UsingAnyFreePort().Build();
 
             //appiumLocalServer.Start();
