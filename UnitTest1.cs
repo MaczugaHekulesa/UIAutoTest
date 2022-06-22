@@ -39,7 +39,7 @@ namespace PSDemoTest
             var driver = new MacDriver<MacElement>(new Uri("http://127.0.0.1:4723/wd/hub"), capabilities);
             return driver;
 
-
+            //będę teraz na remote lecial
             //var appiumLocalServer = new AppiumServiceBuilder().UsingAnyFreePort().Build();
 
             //appiumLocalServer.Start();
