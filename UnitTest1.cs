@@ -41,6 +41,7 @@ namespace PSDemoTest
 
             //będę teraz na remote lecial
             //teraz tak serio polecę
+            //ostatni uda sie
 
 
             //var appiumLocalServer = new AppiumServiceBuilder().UsingAnyFreePort().Build();
